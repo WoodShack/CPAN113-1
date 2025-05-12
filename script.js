@@ -7,14 +7,20 @@ console.log(studentAge)
 console.log(isEnrolled)
 
 //Data Types
-var thisIsString = "My String"
-var thisIsNumber = 20
-var thisIsBool = true
-var thisIsArray = ["orange","blue","pink"]
-var thisIsObject = {
+let thisIsString = "My String"
+let thisIsNumber = 20
+let thisIsBool = true
+let thisIsArray = ["orange","blue","pink"]
+let thisIsObject = {
     snackName:"chips",
     sweet:false,
     salty:true}
+
+console.log("Array: ")
+console.log(thisIsArray)
+
+console.log("Object: ")
+console.log(thisIsObject)
 
 //Arithmetic Operators
 //Add
